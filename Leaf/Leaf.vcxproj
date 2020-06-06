@@ -162,6 +162,9 @@
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\glad\glad.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stb\stb_image.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
